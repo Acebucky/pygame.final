@@ -1,5 +1,5 @@
 
-import pygame, sys
+import pygame, sys, os
 from pygame.locals import *
 from BaseClass import *
 from process import process
@@ -14,8 +14,8 @@ screen = pygame.display.set_mode((SCREENWIDTH, SCREENHEIGHT),0,32)
 clock = pygame.time.Clock()
 FPS = 30
 total_frames = 0 #keeps track of frames
-background = pygame.image.load("images/forestA.jpg")
-bug = Bug(0, SCREENHEIGHT - 40, 40, 40, "images\Bug.gif")
+background = pygame.image.load(os.path.join("images","ForestA.jpg"))
+bug = Bug(0, SCREENHEIGHT - 40, 40, 40, os.path.join("images","Bug.gif"))
 
  
 #----------Main Program Loop-----------------
