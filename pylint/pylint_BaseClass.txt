@@ -1,0 +1,85 @@
+************* Module BaseClass
+C: 12, 0: Exactly one space required after comma
+    def __init__(self,x,y,width,height,image_string):
+                     ^ (bad-whitespace)
+C: 12, 0: Exactly one space required after comma
+    def __init__(self,x,y,width,height,image_string):
+                       ^ (bad-whitespace)
+C: 12, 0: Exactly one space required after comma
+    def __init__(self,x,y,width,height,image_string):
+                         ^ (bad-whitespace)
+C: 12, 0: Exactly one space required after comma
+    def __init__(self,x,y,width,height,image_string):
+                               ^ (bad-whitespace)
+C: 12, 0: Exactly one space required after comma
+    def __init__(self,x,y,width,height,image_string):
+                                      ^ (bad-whitespace)
+C: 23, 0: Exactly one space required before assignment
+        self.height= height
+                   ^ (bad-whitespace)
+C: 28, 0: Trailing whitespace (trailing-whitespace)
+C: 34, 0: Exactly one space required after comma
+    def __init__(self,x,y,width,height,image_string):
+                     ^ (bad-whitespace)
+C: 34, 0: Exactly one space required after comma
+    def __init__(self,x,y,width,height,image_string):
+                       ^ (bad-whitespace)
+C: 34, 0: Exactly one space required after comma
+    def __init__(self,x,y,width,height,image_string):
+                         ^ (bad-whitespace)
+C: 34, 0: Exactly one space required after comma
+    def __init__(self,x,y,width,height,image_string):
+                               ^ (bad-whitespace)
+C: 34, 0: Exactly one space required after comma
+    def __init__(self,x,y,width,height,image_string):
+                                      ^ (bad-whitespace)
+C: 35, 0: Trailing whitespace (trailing-whitespace)
+C: 36, 0: Exactly one space required after comma
+        BaseClass.__init__(self, x, y, width,height, image_string)
+                                            ^ (bad-whitespace)
+C: 41, 0: No space allowed before bracket
+    def motion (self, SCREENWIDTH, SCREENHEIGHT):
+               ^ (bad-whitespace)
+C: 79, 0: Exactly one space required after comma
+        self.velx = randint(1,4)
+                             ^ (bad-whitespace)
+C: 91, 0: Trailing whitespace (trailing-whitespace)
+C:114, 0: Exactly one space required after comma
+    def __init__(self, x, y, width,height, image_string):
+                                  ^ (bad-whitespace)
+C:122, 0: Exactly one space required before assignment
+        self.height= height
+                   ^ (bad-whitespace)
+C:129, 0: Trailing whitespace (trailing-whitespace)
+C:139, 0: Final newline missing (missing-final-newline)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Multiple imports on one line (pygame, math) (multiple-imports)
+E:  5, 0: Unable to import 'pygame' (import-error)
+C:  9, 0: Missing class docstring (missing-docstring)
+C: 12, 4: Invalid argument name "x" (invalid-name)
+C: 12, 4: Invalid argument name "y" (invalid-name)
+R: 12, 4: Too many arguments (6/5) (too-many-arguments)
+C: 24, 4: Invalid argument name "ClassName" (invalid-name)
+C: 24, 4: Missing method docstring (missing-docstring)
+R:  9, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 30, 0: Missing class docstring (missing-docstring)
+R: 34, 4: Too many arguments (6/5) (too-many-arguments)
+C: 41, 4: Invalid argument name "SCREENWIDTH" (invalid-name)
+C: 41, 4: Invalid argument name "SCREENHEIGHT" (invalid-name)
+C: 41, 4: Missing method docstring (missing-docstring)
+C: 53, 4: Invalid argument name "SCREENHEIGHT" (invalid-name)
+C: 72, 0: Missing class docstring (missing-docstring)
+R: 74, 4: Too many arguments (6/5) (too-many-arguments)
+C: 83, 4: Invalid argument name "SCREENWIDTH" (invalid-name)
+C: 83, 4: Missing method docstring (missing-docstring)
+C: 93, 4: Invalid argument name "SCREENWIDTH" (invalid-name)
+C: 93, 4: Missing method docstring (missing-docstring)
+C:110, 0: Missing class docstring (missing-docstring)
+C:114, 4: Invalid argument name "x" (invalid-name)
+C:114, 4: Invalid argument name "y" (invalid-name)
+R:114, 4: Too many arguments (6/5) (too-many-arguments)
+W:131,15: Catching too general exception Exception (broad-except)
+C:137, 4: Missing method docstring (missing-docstring)
+R:110, 0: Too few public methods (1/2) (too-few-public-methods)
+C:  5, 0: standard import "import pygame, math" comes before "import pygame, math" (wrong-import-order)
+C:  6, 0: standard import "from random import randint" comes before "import pygame, math" (wrong-import-order)
